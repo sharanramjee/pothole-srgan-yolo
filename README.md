@@ -24,7 +24,7 @@ $ ./darknet detector train <DATA_CONFIG_FILE> <NETWORK_CONFIG_FILE> <WEIGHTS_FIL
 ```
 Example:
 ```
-$ ./darknet detector train cfg/obj-720p.data cfg/yolo-pothole-normal-train.cfg pothole_weights/yolo-pothole-720p-train_last.weights
+$ ./darknet detector train cfg/obj-720p-train.data cfg/yolo-pothole-720p-train.cfg pothole_weights/yolo-pothole-720p-train_last.weights
 ```
 
 (2) To evaluate (get mAP score of) YOLOv4 model on val or test set:
@@ -33,16 +33,16 @@ $ ./darknet detector map <DATA_CONFIG_FILE> <NETWORK_CONFIG_FILE> <WEIGHTS_FILE>
 ```
 Example:
 ```
-$ ./darknet detector map cfg/obj-720p-test.data cfg/yolo-pothole-normal-test.cfg pothole_weights/yolo-pothole-720p-train_last.weights
+$ ./darknet detector map cfg/obj-720p-test.data cfg/yolo-pothole-720p-test.cfg pothole_weights/yolo-pothole-720p-train_last.weights
 ```
 
-(3) To make predictions on image with YOLOv4 model:
+(3) To run inference on input image with YOLOv4 model, outputting image (predictions.jpg) containing bounding boxes:
 ```
 $ ./darknet detector test <DATA_CONFIG_FILE> <NETWORK_CONFIG_FILE> <WEIGHTS_FILE> <IMAGE_FILE>
 ```
 Example:
 ```
-$ ./darknet detector test cfg/obj-720p-test.data cfg/yolo-pothole-normal-test.cfg pothole_weights/yolo-pothole-720p-train_last.weights some_image.jpg
+$ ./darknet detector test cfg/obj-720p-test.data cfg/yolo-pothole-720p-test.cfg pothole_weights/yolo-pothole-720p-train_last.weights some_image.jpg
 ```
 
 More detailed steps for YOLOv4, including requirements and setup, can be found here: https://github.com/AlexeyAB/darknet
