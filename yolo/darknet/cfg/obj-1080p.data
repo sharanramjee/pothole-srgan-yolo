@@ -1,6 +1,0 @@
-classes = 1
-train = data/Pothole-1080p/train.txt
-valid = data/Pothole-1080p/val.txt
-#valid = data/Pothole-1080p/test.txt
-names = cfg/obj.names
-backup = pothole_weights/
