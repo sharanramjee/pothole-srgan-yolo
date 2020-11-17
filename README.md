@@ -3,11 +3,13 @@ Autumn 2020 CS 230 project on pothole detection using SRGAN and YOLO Net.
 
 Authors: Sharan Ramjee and Moo Jin Kim
 
-Utils (Specify path to original images and path to rescaled/downscaled images): $ python3 downscale.py
+## Utils
+Specify path to original images and path to rescaled/downscaled images: $ python3 downscale.py
 
-SRGAN (specify path to test set, path to downscaled images, and path to upscaled images): $ python3 srgan_isr.py
+## SRGAN
+Specify path to test set, path to downscaled images, and path to upscaled images: $ python3 srgan_isr.py
 
-## Running YOLOv4
+## YOLOv4
 (1) To train YOLOv4:
 ```
 $ ./darknet detector train <DATA_CONFIG_FILE> <NETWORK_CONFIG_FILE> <WEIGHTS_FILE>
