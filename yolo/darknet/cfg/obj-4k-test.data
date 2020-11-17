@@ -1,0 +1,6 @@
+classes = 1
+#train = data/Pothole-4k/train.txt
+#valid = data/Pothole-4k/val.txt
+valid = data/Pothole-4k/test.txt
+names = cfg/obj.names
+backup = pothole_weights/
