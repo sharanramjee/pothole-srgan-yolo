@@ -1,0 +1,4 @@
+classes = 1
+valid = data/Pothole-SRGAN-360p/test.txt
+names = cfg/obj.names
+backup = pothole_weights/
