@@ -3,8 +3,9 @@ Autumn 2020 CS 230 project on pothole detection using SRGAN and YOLO Net.
 
 Authors: Sharan Ramjee and Moo Jin Kim
 
-Project Summary Video:
-![https://youtu.be/rwbdRwAr6Mk](demo/pothole-srgan-yolo-demo.gif)
+Project Summary Video: https://youtu.be/rwbdRwAr6Mk
+
+![](demo/pothole-srgan-yolo-demo.gif)
 
 ## Utils
 (1) To downscale images, specify path to original images and path to rescaled/downscaled images in downscale.py and run:
